@@ -2,6 +2,8 @@
 
 This project implements the framework described in "[Pairs Trading](http://stat.wharton.upenn.edu/~steele/Courses/434/434Context/PairsTrading/PairsTradingQFin05.pdf)" by Elliott et al.
 The model is a statistical arbitrage algorithm based on mean reversion stochastic process and Kalman Filter. When implemented in China's interest rate futures and commodity futures, the model generates stable and significant returns. 
+
+
 A chart for trading indicator is also designed in this project.
 
 **Chart Notes:** 
@@ -22,7 +24,8 @@ Download the code as a ZIP file by clicking the green 'Clone or download' button
 * `butterfly_spread.py` : the main example script to implement stochastic spread model on China's interest rate future
 * `term_spread.py` : another example
 * `commodities.py` : another example with significant higher expected returns as well as volitilities
-**Notes:**Wind database is strongly recommended to extract market data in China's futures market.
+
+**Notes:**Wind database and WindPy API are strongly recommended to extract market data in China's futures market.
 
 ## Required software and versioning
 
