@@ -25,7 +25,7 @@ Download the code as a ZIP file by clicking the green 'Clone or download' button
 * `term_spread.py` : another example
 * `commodities.py` : another example with significant higher expected returns as well as volitilities
 
-**Notes:**Wind database and WindPy API are strongly recommended to extract market data in China's futures market.
+**Notes:** Wind database and WindPy API are strongly recommended to extract market data in China's futures market.
 
 ## Required software and versioning
 
