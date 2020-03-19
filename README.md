@@ -22,7 +22,7 @@ Download the code as a ZIP file by clicking the green 'Clone or download' button
 * `butterfly_spread.py` : the main example script to implement stochastic spread model on China's interest rate future
 * `term_spread.py` : another example
 * `commodities.py` : another example with significant higher expected returns as well as volitilities
-
+**Notes:**Wind database is strongly recommended to extract market data in China's futures market.
 
 ## Required software and versioning
 
