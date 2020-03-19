@@ -1,6 +1,8 @@
-# Stochastic-Spread-Trading
+# Stochastic Spread Trading
 
 This project implements the framework described in "[Pairs Trading](http://stat.wharton.upenn.edu/~steele/Courses/434/434Context/PairsTrading/PairsTradingQFin05.pdf)" by Elliott et al.
+The model is a statistical arbitrage algorithm based on mean reversion stochastic process and Kalman Filter. When implemented in China's interest rate futures and commodity futures, the model generates stable and significant returns. 
+A chart for trading indicator is also designed in this project.
 
 **Chart Notes:** 
 1. Red line represents the priori Kalman Filter prediction, i.e. the fair value of spreads.
