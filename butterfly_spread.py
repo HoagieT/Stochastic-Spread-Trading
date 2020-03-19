@@ -12,6 +12,10 @@ w.isconnected()
 temp=w.edb("M0330936,M0096851,S0213048", "2018-08-17", "-0D","Fill=Previous")
 market_data = pd.DataFrame(data=np.array(temp.Data).T, index=temp.Times, columns=['TS','TF','T'])
 
+#alternatively, use the following command to import market data
+#market_data=import_data('rates_future.xlsx', 'close_price', start=0, interpolation=False, encoding='gb18030')
+
+
 #model1=sm.OLS(market_data['TS'], sm.add_constant(market_data[['TF','T']])).fit()
 #model2=sm.OLS(market_data['TS'], market_data[['TF','T']]).fit()
 
